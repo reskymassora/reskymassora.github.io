@@ -59,4 +59,24 @@ ul{
     .halo div ul li{
         font-size: 15px;
     }
+    .logo-sosmed img{
+        width: 40px;
+        height: 39px;
+    }
+
+}
+/* Tampilan mobile */
+@media screen and (max-width: 576px){
+    .logo-sosmed img{
+        width: 35px;
+        height: 34px;
+    }
+    .logo-sosmed div a p{
+        color: rgb(0, 0, 255);
+        font-size: 13px;
+    }    
+    .logo-sosmed div a p :hover{
+        font-size: 15px;
+    }
+    
 }
