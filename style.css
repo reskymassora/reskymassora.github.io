@@ -1,0 +1,62 @@
+body{
+    height: 3200px;
+}
+.jumbotron{
+    padding-top: 2rem;
+    background-color: #cbdfff;
+}
+.about-1{
+    padding-top: 20px;
+    text-indent: 50px;
+}
+.halo div p{
+    text-indent: 50px;
+    text-align: justify;
+}
+ul{
+    list-style: square;
+}
+/* Project */
+#projects{
+    background-color: #cbdfff;
+}
+.proyek .satu{
+    box-shadow: 5px 10px 17px black;
+}
+/* sosmed */
+.logo-sosmed img{
+    width: 50px;
+    height: 49px;
+}
+.logo-sosmed div a{
+    text-decoration: none;
+}
+.logo-sosmed div a p:hover{
+    color: rgb(0, 0, 255);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+/* Responsif */
+@media screen and (max-width: 768px){
+    .menu-home h3{
+        font-size: 25px;
+    }
+    .menu-home p{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .halo div p{
+        text-indent: 50px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .halo div ul li{
+        font-size: 15px;
+    }
+}
